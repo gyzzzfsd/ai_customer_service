@@ -74,11 +74,3 @@ script/         设计文档与代码规范
 document/       知识库手册原文与切块脚本
 ```
 
-向量回填命令（手册内容更新后重跑，默认只补空缺）：
-
-```powershell
-D:\app\anaconda\envs\llm1\python.exe -m app.ingest            # 只补 embedding 为空的行
-D:\app\anaconda\envs\llm1\python.exe -m app.ingest --rebuild  # 全量重算
-```
-
-代码规范见 `script/代码规范.md`。
